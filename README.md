@@ -1,50 +1,24 @@
-# GuardianSure Business Intelligence Project
+# Business Intelligence Projects
 
-## 📊 Overview
-This project consists of developing a **Business Intelligence report in Power BI** using data from a fictitious insurance company called *GuardianSure*.
-The goal is to transform raw data into strategic insights, enabling process optimization, trend identification, and data-driven decision-making.
-
----
-
-## 📂 Work Includes
-- 🔗 **Integration and modeling** of four main datasets
-  (`PolicyHolderDetails`, `PolicyDetails`, `Claims`, `Payments`) in a **star schema**.
-- 📈 **Definition of relevant KPIs** such as:
-  - Claims Rate
-  - Average Premium Value
-  - Customer Lifetime Value (CLV)
-  - Gross Profit Margin
-- 📊 **Creation of interactive dashboards** covering multiple perspectives:
-  - Customers
-  - Claims
-  - Policies
-  - Payments
-  - Gender
-  - Age
-  - Driving Experience
-  - Profitability
-- 🎛️ **Implementation of dynamic filters** by:
-  - Country
-  - Gender
-  - Product
-  - Time period
+## 📌 Overview
+This repository is organized in **branches**, where **each branch contains a different project**.  
+The `main` branch is only used as an index and does not contain project files.
 
 ---
 
-## ✅ Outcome
-The final result is a set of **clear and actionable visualizations** that provide insights into the insurance business, following best practices in **data analysis and Business Intelligence visualization**.
+## 🌱 Branches
+- [`insurance-project`](../../tree/insurance-project) → Power BI project analyzing an insurance company (*GuardianSure*).  
+- *(More projects will be added in future branches...)*  
 
 ---
 
-## 🛠️ Tools & Technologies
-- Power BI
-- DAX (Data Analysis Expressions)
-- Data Modeling (Star Schema)
+## 🚀 How to Use
+1. Switch to the desired branch using GitHub’s branch selector.  
+2. Clone or download the branch if you want to explore the files locally.  
+3. Each branch has its own `README.md` with details about that specific project.  
 
 ---
 
-## 🗂️ Data Model
+## 👥 Authors
+- Tiago Silva  
 
-The following star schema was used to organize the datasets:
-
-![Data Model](Images/Tables.png)
